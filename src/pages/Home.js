@@ -6,6 +6,7 @@ import { DiJsBadge, DiCss3, DiGit, DiHtml5, DiReact} from  "react-icons/di";
 import { GrLinkedin } from 'react-icons/gr'
 import { IoLogoTwitter, IoLogoGithub } from 'react-icons/io'
 import { useGlobalContext } from '../context';
+import Curriculum from '../assets/perfil-curricular/Perfil-curricular.odt'
 
 export default function Home() {
   const { language } = useGlobalContext();
@@ -40,7 +41,7 @@ export default function Home() {
         {language ? <h4>Contatos</h4> : <h4>Contacts</h4>}
         <div className="contatos">
           <h4>{ contact.email }</h4>
-          <h4>Download: <a href="/" download>Curriculum</a></h4>
+          <h4>Download: <a href={ Curriculum } download>Curriculum</a></h4>
           <h5>{ contact.telefone }</h5>
         </div>
       </Footer>
