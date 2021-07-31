@@ -14,7 +14,7 @@ const [language, setLanguage] = useState(setLocalStorage().language);
   useEffect(() => {
     localStorage.setItem('state', JSON.stringify({ darkMode, language }));
   }, [darkMode, language])
-
+  
   return (
     <AppContext.Provider value={{
       darkMode,
