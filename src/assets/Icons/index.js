@@ -11,12 +11,12 @@ export const icons = [
   {
     id: 2,
     icon: <IoLogoHtml5 />,
-    title: 'HTML',
+    title: 'HTML5',
   },
   {
     id: 3,
     icon: <IoLogoCss3 />,
-    title: 'CSS',
+    title: 'CSS3',
   },
   {
     id: 4,

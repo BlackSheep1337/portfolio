@@ -25,17 +25,17 @@ export default function Home() {
       </Section>
       <LinksSkills>
       <h4>Stacks</h4>
-        <span><a href="/"><DiJsBadge /></a></span>
-        <span><a href="/"><DiHtml5 /></a></span>
-        <span><a href="/"><DiCss3 /></a></span>
-        <span><a href="/"><DiGit /></a></span>
-        <span><a href="/"><DiReact /></a></span>
+        <span><a title="Javascript" href="/"><DiJsBadge /></a></span>
+        <span><a title="HTML5" href="/"><DiHtml5 /></a></span>
+        <span><a title="CSS3" href="/"><DiCss3 /></a></span>
+        <span><a title="Git" href="/"><DiGit /></a></span>
+        <span><a title="React" href="/"><DiReact /></a></span>
       </LinksSkills>
       <Links>
       <h4>Redes</h4>
-          <span><a rel="noreferrer" target="_blank" href="https://github.com/Naitwa-Alexandre"><IoLogoGithub /></a></span>
-          <span><a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/alexandre-pereira-0aba82205/"><GrLinkedin /></a></span>
-          <span><a rel="noreferrer" target="_blank" href="https://twitter.com/Alexand12749403"><IoLogoTwitter /></a></span>
+          <span><a title="Github" rel="noreferrer" target="_blank" href="https://github.com/Naitwa-Alexandre"><IoLogoGithub /></a></span>
+          <span><a title="Linkedin" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/alexandre-pereira-0aba82205/"><GrLinkedin /></a></span>
+          <span><a  title="Twitter" rel="noreferrer" target="_blank" href="https://twitter.com/Alexand12749403"><IoLogoTwitter /></a></span>
         </Links>
       <Footer>
         {language ? <h4>Contatos</h4> : <h4>Contacts</h4>}

@@ -32,6 +32,7 @@ export default function Projects() {
             key={ id }
             className={name === title ? 'active' : ''}
             onClick={ () => handleClick(title) }
+            title={ title }
           >
             { icon }
           </button>
